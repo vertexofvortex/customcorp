@@ -51,3 +51,11 @@ function popupClose() {
     document.querySelector(".menu").remove();
     profile.onclick = popup;
 }
+function pmNew() {
+    if (document.querySelector("#visit-links span#visit-pun_pm a strong") != null) {
+        var pmIndicator = document.createElement("div");
+        pmIndicator.className = "pmIndicator";
+        pmIndicator.innerHTML = "Новые сообщения";
+        profile.appendChild(pmIndicator);
+    }
+}
