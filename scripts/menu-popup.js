@@ -2,7 +2,6 @@ var profile = document.querySelector("#welcome");
 profile.onclick = popup;
 
 function popup() {
-    console.log("summonned");
     var menu = document.createElement("div");
     document.body.appendChild(menu);
     menu.className = "menu";
@@ -50,6 +49,5 @@ function popup() {
 }
 function popupClose() {
     document.querySelector(".menu").remove();
-    console.log("removed");
     profile.onclick = popup;
 }
