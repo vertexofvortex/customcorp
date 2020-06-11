@@ -685,12 +685,9 @@ li.info-views strong {
 #brd-navlinks ul #navprofile a {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/7e2402f1f3596dec52a144e24a713fa4efc62ac8/images/new/user.svg)}
 #brd-navlinks ul #navregister a {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/af5683656bc66ea340be4e3bb4ef779406a47fed/images/new/network.svg)}
 #brd-navlinks ul #navlogin a {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/7e2402f1f3596dec52a144e24a713fa4efc62ac8/images/new/login.svg)}
-#brd-navlinks ul #reports a {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/new/flag.svg); animation: 1s reports ease-in-out infinite;}
-
-@keyframes reports {
-    0% {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/new/flag.svg)}
-    50% {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/new/flag-active-red.svg)}
-    100% {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/new/flag.svg)}
+#brd-navlinks ul #reports a {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/new/flag.svg)}
+li#reports {
+	animation: shake 2s infinite ease-in-out;
 }
 @keyframes tooltip {
     from {
