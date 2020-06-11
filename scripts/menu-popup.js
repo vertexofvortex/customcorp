@@ -1,5 +1,6 @@
 var profile = document.querySelector("#welcome");
 profile.onclick = popup;
+onload = pmNew();
 
 function popup() {
     var menu = document.createElement("div");
@@ -46,7 +47,6 @@ function popup() {
     menu.appendChild(unansweredTopics);
 
     profile.onclick = popupClose;
-    onload = pmNew();
 }
 function popupClose() {
     document.querySelector(".menu").remove();
