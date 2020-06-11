@@ -1,3 +1,4 @@
+onload = pmNew();
 var profile = document.querySelector("#welcome");
 profile.onclick = popup;
 
