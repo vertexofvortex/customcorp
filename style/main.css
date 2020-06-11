@@ -855,6 +855,26 @@ span[style="color: center"] {
 	display: flex;
 	justify-content: center;
 }
+span[style^="color: accent"] {
+	display: block;
+	padding: 1em;
+	border-radius: 4px;
+}
+span[style="color: accentRed"] {
+	background: #f4c9c1;
+	border: 1px solid #ee9e90;
+}
+span[style="color: accent"] {
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.entry-content .quotebox,
+.entry-content .codebox {
+	padding: 1em 1em;
+}
+.entry-content .quotebox blockquote p {
+	padding: 0px;
+}
 .main-item .hn .item-status em,
 .main-content .main-item .hn a .tag {
 	padding: 1px 4px;
