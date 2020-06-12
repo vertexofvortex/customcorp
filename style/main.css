@@ -888,16 +888,6 @@ span[style="color: accent"] {
 	text-transform: lowercase;
 	font-variant: small-caps;
 }
-/* ЦВЕТА ПРИСТАВОК */
-.main-content .main-item .hn a .tag.informaciya {
-        background: #eee1c8;
-        color: #977e1a;
-}
-.main-content .main-item .hn a .tag.zaversheno,
-.main-content .main-item .hn a .tag.provedeno {
-        color: #C12724;
-        background: #F7DFDF;
-}
 .post-contacts * a {
 	display: inline-block;
 	position: relative;
