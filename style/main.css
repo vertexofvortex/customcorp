@@ -868,10 +868,6 @@ span[style="color: accent"] {
 	background: #fff;
 	border: 1px solid #ccc;
 }
-.entry-content .quotebox,
-.entry-content .codebox {
-	padding: 1em 1em;
-}
 .entry-content .quotebox blockquote p {
 	padding: 0px;
 }
