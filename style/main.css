@@ -1031,19 +1031,19 @@ a[href^="https://forum.minecorp.ru/moderate.php?get_host="]:hover {
 	box-shadow: none !important;
 	opacity: 1;
 }
-#pun_bbcode_bar input[name="b"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/b.svg) !important}
-#pun_bbcode_bar input[name="i"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/i.svg) !important}
-#pun_bbcode_bar input[name="u"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/u.svg) !important}
-#pun_bbcode_bar input[name="list"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/list.svg) !important}
-#pun_bbcode_bar input[name="list item"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/list-item.svg) !important}
-#pun_bbcode_bar input[name="quote"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/quote.svg) !important}
-#pun_bbcode_bar input[name="code"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/code.svg) !important}
-#pun_bbcode_bar input[name="email"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/email.svg) !important}
-#pun_bbcode_bar input[name="url"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/url.svg) !important}
-#pun_bbcode_bar input[name="img"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/img.svg) !important}
-#pun_bbcode_bar input[name="color"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/color.svg) !important}
-#pun_bbcode_bar input[name="smiles"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/smiles.svg) !important}
-#pun_bbcode_bar input[name="fancy_spoiler"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/spoiler.svg) !important}
+#pun_bbcode_bar *[name="b"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/b.svg) !important}
+#pun_bbcode_bar *[name="i"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/i.svg) !important}
+#pun_bbcode_bar *[name="u"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/u.svg) !important}
+#pun_bbcode_bar *[name="list"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/list.svg) !important}
+#pun_bbcode_bar *[name="list item"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/list-item.svg) !important}
+#pun_bbcode_bar *[name="quote"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/quote.svg) !important}
+#pun_bbcode_bar *[name="code"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/code.svg) !important}
+#pun_bbcode_bar *[name="email"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/email.svg) !important}
+#pun_bbcode_bar *[name="url"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/url.svg) !important}
+#pun_bbcode_bar *[name="img"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/img.svg) !important}
+#pun_bbcode_bar *[name="color"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/color.svg) !important}
+#pun_bbcode_bar *[name="smiles"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/smiles.svg) !important}
+#pun_bbcode_bar *[name="fancy_spoiler"] {background-image: url(https://raw.githubusercontent.com/vertexofvortex/customcorp/master/images/bbcode/spoiler.svg) !important}
 #bbcode_smilies {
 	background: #fff !important;
 }
