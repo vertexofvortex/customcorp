@@ -1,7 +1,8 @@
 try {
-    var topic = document.querySelector('.entry-content');
+    document.querySelectorAll('.entry-content').forEach(function(current) {
+        current.innerHTML = current.innerHTML.replace(/\[accent\]/, '<span class="bbAccent">');
+        current.innerHTML = current.innerHTML.replace(/\[\/accent\]/, '</span>');
+        current.innerHTML = current.innerHTML.replace(/\[hr\]/, '<div class="bbHr"></div>');
+    });
 
-    topic.innerHTML = topic.innerHTML.replace(/\[accent\]/, '<span class="bbAccent">');
-    topic.innerHTML = topic.innerHTML.replace(/\[\/accent\]/, '</span>');
-    topic.innerHTML = topic.innerHTML.replace(/\[hr\]/, '<div class="bbHr"></div>');
 } catch {}
